@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function HistoryMovies({history, onClick}) {
     return (
-        <div className="col-md-6 text-center">
+        <div className="col-md-6">
             <div className="list-group my-2">
                 <div className="list-group-item list-group-item-action list-group-item-primary text-center text-dark">
                     <strong>History of moves</strong>

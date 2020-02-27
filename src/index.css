@@ -9,8 +9,11 @@ main {
     max-width: 800px;
 }
 
-.alert {
-    max-width: 200px;
+.alert, .list-group-item {
+    max-width: 237px;
+}
+.list-group-item {
+    margin:0 auto;
 }
 
 .square {
