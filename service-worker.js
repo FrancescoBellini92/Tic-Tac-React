@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Tic-Tac-React/precache-manifest.96e336d1539e9e1d06374e02d094f234.js"
+  "/Tic-Tac-React/precache-manifest.b643548598102419405de3d0ec82ad67.js"
 );
 
 self.addEventListener('message', (event) => {
