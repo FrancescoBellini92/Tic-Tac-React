@@ -4,7 +4,7 @@ Do you like tic tac toe? I hope you do, let's play some :)
 
 This repo contains an enhanced version of the tic-tac-toe app described in the React official docs (https://reactjs.org/tutorial/tutorial.html).
 
-Try it out at https://francescobellini92.github.io/React-basics__tic-tac-toe/
+Try it out at https://francescobellini92.github.io/Tic-Tac-React/
 
 ## Dependencies
 Please refer to package.json for dependencies
