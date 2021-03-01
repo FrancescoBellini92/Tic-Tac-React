@@ -3,12 +3,11 @@ import Square from './Square';
 
 export default function Board ({squares, winningSquares, onClick}) {
     const renderSquare = i => {
-        let style;
-        winningSquares.includes(i) ? style = {color:'green'} : style = null;
+        const style  = winningSquares.includes(i) ? {color:'green'} : null;
         return <Square value={squares[i]} style={style} onClick={() => onClick(i)} />;
     }
     return (
-    
+
             <div className="col-md-6">
                 <div className="row justify-content-center">
                     {renderSquare(0)}
@@ -26,6 +25,6 @@ export default function Board ({squares, winningSquares, onClick}) {
                     {renderSquare(8)}
                 </div>
             </div>
-      
+
     );
 }

@@ -11,12 +11,16 @@ export default class ErrorBoundary extends React.Component {
     }
 
     componentDidCatch(error, errorInfo) {
-        console.log(error, errorInfo);
+        console.error(error, errorInfo);
     }
 
     render() {
         if (this.state.hasError) {
-            return <div className="alert alert-danger"><h3>Oops! An exception emerged... check the console for more info</h3></div>
+            return(
+            <div className="alert alert-danger">
+                <h3>Oops! Something went wrong!</h3>
+            </div>
+            );
         }
         return this.props.children;
     }

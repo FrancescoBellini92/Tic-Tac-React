@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 10% 5%;
@@ -33,11 +37,12 @@ main {
 .square:focus {
     outline: none;
 }
-  
+
 .kbd-navigation .square:focus {
     background: #ddd;
 }
-  
+
+
 @media only screen and (min-width:530px) {
     main {
         background-color: rgba(255,255,255, 0.4);
@@ -45,6 +50,20 @@ main {
         padding: 5em;
     }
     body {
-        background-color: rgb(66, 61, 61);  
+        background-color: rgb(66, 61, 61);
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: rgba(161, 196, 243, 0.981);
     }
 }
